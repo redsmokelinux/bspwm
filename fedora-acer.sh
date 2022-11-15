@@ -10,7 +10,7 @@ sudo dnf update -y && sudo dnf upgrade -y
 sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm -y
 
 
-sudo dnf install NetworkManager-tui nitrogen iwlax2xx-firmware fish git nitrogen kitty mesa-dri-drivers gwe wget firefox mozilla-fira-mono-fonts materia-gtk-theme papirus-icon-theme lxappearance bspwm sxhkd polybar unar unzip tar pcmanfm Xorg xorg-x11-xinit neovim akmod-nvidia xorg-x11-drv-nvidia-cuda libappindicator-gtk3 NetworkManager-openvpn-gnome network-manager-applet libXft-devel libX11-devel libXinerama-devel make gcc -y 
+sudo dnf install gnome-disk-utility NetworkManager-tui nitrogen iwlax2xx-firmware fish git nitrogen kitty mesa-dri-drivers gwe wget firefox mozilla-fira-mono-fonts materia-gtk-theme papirus-icon-theme lxappearance bspwm sxhkd polybar unar unzip tar pcmanfm Xorg xorg-x11-xinit neovim akmod-nvidia xorg-x11-drv-nvidia-cuda libappindicator-gtk3 NetworkManager-openvpn-gnome network-manager-applet libXft-devel libX11-devel libXinerama-devel make gcc -y 
 
 
 #Brave-Beta
