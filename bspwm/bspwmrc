@@ -46,9 +46,9 @@ bspc rule -a jetbrains-idea-ce state=floating
 
 #Autostart
 
-killall -q nm-tray 
+killall -q nm-applet 
 
-nm-tray &
+nm-applet &
 blueman-applet &
 dunst &
 
