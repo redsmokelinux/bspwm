@@ -1,0 +1,63 @@
+/* ==========================================================================
+   Rofi color theme
+
+   Based on the everforest color scheme for Vim by morhetz
+   https://github.com/morhetz/everforest
+
+   File: everforest-light.rasi
+   Desc: everforest light color theme for rofi
+   Author: bardisty <b@bah.im>
+   Source: https://github.com/bardisty/everforest-rofi
+   Modified: Mon Feb 12 2018 06:06:06 PST -0800
+   ========================================================================== */
+
+* {
+    /* Theme settings */
+    highlight: bold italic;
+    scrollbar: true;
+
+    /* everforest light colors */
+    everforest-light-bg0:          #1e2327;
+    everforest-light-bg0-soft:     #1e2327;
+    /*everforest-light-bg0-soft:     #2c3038;*/
+    everforest-light-bg2:          #2b3339;
+    everforest-light-fg0:          #fff9e8;
+    everforest-light-fg1:          #fff9e8;
+    everforest-light-gray:         #fff9e8;
+    everforest-light-red-dark:     #9d0006;
+    everforest-light-red-light:    #cc241d;
+    everforest-light-yellow-dark:  #b57614;
+    everforest-light-yellow-light: #d79921;
+
+    /* Theme colors */
+    background:                  @everforest-light-bg0;
+    background-color:            @background;
+    foreground:                  @everforest-light-fg1;
+    border-color:                @everforest-light-gray;
+    separatorcolor:              @border-color;
+    scrollbar-handle:            @border-color;
+
+    normal-background:           @background;
+    normal-foreground:           @foreground;
+    alternate-normal-background: @everforest-light-bg0-soft;
+    alternate-normal-foreground: @foreground;
+    selected-normal-background:  @everforest-light-bg2;
+    selected-normal-foreground:  @everforest-light-fg0;
+
+    active-background:           @everforest-light-yellow-dark;
+    active-foreground:           @background;
+    alternate-active-background: @active-background;
+    alternate-active-foreground: @active-foreground;
+    selected-active-background:  @everforest-light-yellow-light;
+    selected-active-foreground:  @active-foreground;
+
+    urgent-background:           @everforest-light-red-dark;
+    urgent-foreground:           @background;
+    alternate-urgent-background: @urgent-background;
+    alternate-urgent-foreground: @urgent-foreground;
+    selected-urgent-background:  @everforest-light-red-light;
+    selected-urgent-foreground:  @urgent-foreground;
+}
+
+@import "everforest-common.rasi"
+
